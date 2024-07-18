@@ -1,0 +1,22 @@
+/* for mobile or small device */
+
+@media screen and (max-width: 576px) {
+  .nav-container {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    justify-content: space-between;
+  }
+  .nav-item {
+    display: none;
+  }
+  .nav-container li {
+    padding: 0px 0px;
+  }
+  .cart-icon {
+    display: block;
+    background-color: black;
+  }
+  /* hero banner section */
+  
+}
