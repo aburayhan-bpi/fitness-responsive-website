@@ -274,9 +274,17 @@ header {
   flex-direction: column;
 }
 .run-col1 button {
+  width: 40%;
+  border: none;
   margin-top: 25px;
-  width: 30%;
   cursor: pointer;
+  border-radius: 42px;
+  padding: 16px 24px;
+  font-family: Inter, sans-serif;
+  font-size: 1.125rem;
+  font-weight: 600;
+  background: #e6533c;
+  color: rgb(255, 255, 255);
 }
 .run-col1 h2 {
   color: rgb(255, 255, 255);
@@ -313,18 +321,6 @@ header {
   right: 110%;
   bottom: 45%;
   border-radius: inherit;
-}
-
-.run-col1 button {
-  border-radius: 42px;
-  padding: 16px 24px;
-  font-family: Inter, sans-serif;
-  font-size: 1.125rem;
-  font-weight: 600;
-  background: #e6533c;
-  color: rgb(255, 255, 255);
-  width: 40%;
-  border: none;
 }
 
 /* BMI Calculator */
@@ -558,10 +554,6 @@ select {
   font-family: inter, sans-serif;
 }
 
-
-
-
-
 /* FAQ section */
 .faq-container {
   max-width: 1300px;
@@ -571,8 +563,8 @@ select {
   border-radius: 10px;
   background-color: #232323;
 }
-.faq-container hr{
-  margin-top: -20px; 
+.faq-container hr {
+  margin-top: -20px;
   max-width: 60%;
 }
 
@@ -585,7 +577,7 @@ select {
   margin-bottom: 30px;
 }
 
-details{
+details {
   color: white;
   font-size: 1.5rem;
   font-family: inter, sans-serif;
@@ -597,20 +589,28 @@ details{
   margin-bottom: 10px;
   /* appearance: none; */
 }
-details summary{
+details summary {
   padding: 10px 20px;
   list-style: none;
 }
 
-
-.q1, .q3, .q4, .q6{
+.q1,
+.q3,
+.q4,
+.q6 {
   background-color: #2e2e2d;
 }
-.q2, .q5{
+.q2,
+.q5 {
   background-color: #2e2e2d;
 }
 
-.q1 p, .q2 p, .q3 p, .q4 p, .q5 p, .q6 p{
+.q1 p,
+.q2 p,
+.q3 p,
+.q4 p,
+.q5 p,
+.q6 p {
   font-size: 1rem;
   font-weight: 300;
   line-height: 25px;
@@ -621,30 +621,11 @@ details summary{
   background-color: rgba(59, 59, 59, 0.3);
 }
 
-.faq-col-container{
+.faq-col-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* footer section */
 .footer-section {

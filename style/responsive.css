@@ -15,7 +15,7 @@
   }
   .cart-icon {
     display: block;
-    background-color: black;
+    /* background-color: black; */
     font-size: x-large;
   }
 
@@ -244,6 +244,7 @@
   .calc-btn {
     width: 140%;
   }
+
   /* team section */
   .team-container {
     background-color: #232323;
@@ -259,17 +260,17 @@
 
   /* FAQ section */
 
-  .faq-col-container{
+  .faq-col-container {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 1px;
   }
 
-  .faq-container hr{
-    margin-top: -20px; 
+  .faq-container hr {
+    margin-top: -20px;
     max-width: 120%;
   }
-  
+
   .faq-container h3 {
     font-family: inter, sans-serif;
     font-size: 2rem;
@@ -279,7 +280,7 @@
     margin-bottom: 30px;
   }
 
-  summary{
+  summary {
     font-size: 1.2rem;
   }
 
@@ -333,5 +334,125 @@
     font-weight: 500;
     width: 100%;
     height: 50px;
+  }
+}
+
+/* just for checking tablet and big device responsvieness */
+@media screen and (min-width: 576px) and (max-width: 1024px) {
+  .nav-item li {
+    /* width: 20%; */
+    text-align: center;
+    /* margin-right: 30px; */
+  }
+
+  form {
+    display: grid;
+    grid-template-columns: repeat(2, 47%);
+  }
+
+  /* hero section */
+
+  .hero-section {
+    flex-direction: column;
+    padding: 0 20px;
+  }
+  .hero-col1 {
+    width: 70%;
+    margin: 20px 40px;
+  }
+  .hero-col2 {
+    width: 50%;
+    overflow: hidden;
+  }
+  .hero-col1 h1 {
+    font-size: 5.4rem;
+    line-height: 120%;
+    max-width: 85%;
+  }
+  .shape {
+    font-size: 6rem;
+    font-weight: 400;
+  }
+  .hero-col1 p {
+    max-width: 95%;
+  }
+  .club {
+    display: none;
+  }
+  .hero-btn-container {
+    gap: 70px;
+  }
+
+  .hero-col2-image-container {
+    margin-top: 48px;
+    display: flex;
+    max-height: 420px;
+    /* border: 1px solid green; */
+  }
+  .hero-col2-image-container > img {
+    /* border: 1px solid violet; */
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+  }
+  .tutorial-text {
+    font-size: 0.8rem;
+    width: 80px;
+  }
+  .tutorial-text h4 {
+    font-size: 1.2rem;
+  }
+  .tutorial-number {
+    top: 56%;
+    right: 42%;
+    width: 152px;
+    backdrop-filter: blur(10px);
+  }
+  .workout-video {
+    top: 22%;
+    right: 0%;
+    width: 130px;
+    height: 70px;
+    background: #ffffff1a;
+  }
+
+  /* habbit section */
+  .habit-parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* justify-items: center;
+    align-items: center; */
+  }
+  .habit-item {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  .run-extra {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .run-col1 {
+    width: 50%;
+    border: 1px solid red;
+  }
+  .run-col1 button {
+    width: 60%;
+  }
+  .run-col2 {
+    width: 48%;
+    height: 380px;
+    border: 1px solid red;
+  }
+  .run-col2 img {
+    width: 250%;
+    height: 250%;
+    right: 140%;
+    bottom: 45%;
+    border-radius: inherit;
   }
 }
