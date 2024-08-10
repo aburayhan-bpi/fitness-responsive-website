@@ -167,6 +167,16 @@
     background-size: 100%;
     /* background-position: center; */
   }
+  .run-col2 img {
+    /* display: none; */
+    width: 130%;
+    height: 140%;
+    object-fit: cover;
+    position: relative;
+    right: 23%;
+    bottom: auto;
+    border-radius: inherit;
+  }
 
   /* BMI section */
   .bmi-calculator {
@@ -246,6 +256,33 @@
   .section-details {
     width: 90%;
   }
+
+  /* FAQ section */
+
+  .faq-col-container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1px;
+  }
+
+  .faq-container hr{
+    margin-top: -20px; 
+    max-width: 120%;
+  }
+  
+  .faq-container h3 {
+    font-family: inter, sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  summary{
+    font-size: 1.2rem;
+  }
+
   /* footer section */
   .footer-main {
     display: flex;

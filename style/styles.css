@@ -301,15 +301,20 @@ header {
   width: 45%;
 }
 .run-col2 {
-  background-image: url("../images/run1.jpg");
   border-radius: 20px;
-  width: 43%;
   height: 340px;
-
-  background-size: 115%;
-  background-position: left;
-  background-repeat: no-repeat;
+  overflow: hidden;
 }
+.run-col2 img {
+  width: 250%;
+  height: 250%;
+  object-fit: cover;
+  position: relative;
+  right: 110%;
+  bottom: 45%;
+  border-radius: inherit;
+}
+
 .run-col1 button {
   border-radius: 42px;
   padding: 16px 24px;
@@ -552,6 +557,94 @@ select {
   color: #ffffff80;
   font-family: inter, sans-serif;
 }
+
+
+
+
+
+/* FAQ section */
+.faq-container {
+  max-width: 1300px;
+  margin: 0 auto;
+  margin-top: 40px;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: #232323;
+}
+.faq-container hr{
+  margin-top: -20px; 
+  max-width: 60%;
+}
+
+.faq-container h3 {
+  font-family: inter, sans-serif;
+  font-size: 2rem;
+  font-weight: 800;
+  color: white;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+details{
+  color: white;
+  font-size: 1.5rem;
+  font-family: inter, sans-serif;
+  font-weight: 400;
+  background-color: #3e3e3e;
+  /* padding: 10px; */
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  /* appearance: none; */
+}
+details summary{
+  padding: 10px 20px;
+  list-style: none;
+}
+
+
+.q1, .q3, .q4, .q6{
+  background-color: #2e2e2d;
+}
+.q2, .q5{
+  background-color: #2e2e2d;
+}
+
+.q1 p, .q2 p, .q3 p, .q4 p, .q5 p, .q6 p{
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 25px;
+  border-radius: 5px;
+  margin-top: 5px;
+  padding: 10px 10px 10px 40px;
+  cursor: text;
+  background-color: rgba(59, 59, 59, 0.3);
+}
+
+.faq-col-container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* footer section */
 .footer-section {
