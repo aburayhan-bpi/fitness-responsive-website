@@ -15,7 +15,10 @@
   }
   .cart-icon {
     display: block;
+<<<<<<< HEAD
     /* background-color: black; */
+=======
+>>>>>>> 6e2f15f2b82c0440aa4ed54b32491fcccd17f6a8
     font-size: x-large;
   }
 
@@ -340,9 +343,7 @@
 /* just for checking tablet and big device responsvieness */
 @media screen and (min-width: 576px) and (max-width: 1024px) {
   .nav-item li {
-    /* width: 20%; */
     text-align: center;
-    /* margin-right: 30px; */
   }
 
   form {
