@@ -1,3 +1,25 @@
+/* responsive for max-width 350*553 or small device */
+@media screen and (max-width: 320px) {
+  .hero-btn-container {
+    gap: 20px;
+  }
+  .hero-btn1 {
+    padding: 10px 30px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    width: 100%;
+    height: 50px;
+    border: none;
+  }
+  .hero-btn2 {
+    padding: 10px 10px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    width: 100%;
+    height: 50px;
+  }
+}
+
 /* for mobile or small device */
 
 @media screen and (max-width: 576px) {
@@ -15,10 +37,7 @@
   }
   .cart-icon {
     display: block;
-<<<<<<< HEAD
     /* background-color: black; */
-=======
->>>>>>> 6e2f15f2b82c0440aa4ed54b32491fcccd17f6a8
     font-size: x-large;
   }
 
@@ -317,77 +336,59 @@
     text-align: left;
   }
 }
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
 
-/* responsive for max-width 350*553 or small device */
-@media screen and (max-width: 320px) {
-  .hero-btn-container {
-    gap: 20px;
-  }
-  .hero-btn1 {
-    padding: 10px 30px;
-    font-size: 0.9rem;
-    font-weight: 500;
-    width: 100%;
-    height: 50px;
-    border: none;
-  }
-  .hero-btn2 {
-    padding: 10px 10px;
-    font-size: 0.9rem;
-    font-weight: 500;
-    width: 100%;
-    height: 50px;
-  }
-}
-
-/* just for checking tablet and big device responsvieness */
+/* just for checking tablet and big device (such as laptop- 1024px) responsvieness */
 @media screen and (min-width: 576px) and (max-width: 1024px) {
+  .nav-container{
+    padding: 0 20px;
+  }
   .nav-item li {
     text-align: center;
   }
 
-  form {
-    display: grid;
-    grid-template-columns: repeat(2, 47%);
-  }
-
   /* hero section */
-
   .hero-section {
-    flex-direction: column;
+    flex-direction: row;
     padding: 0 20px;
+    margin-bottom: 40px;
   }
   .hero-col1 {
-    width: 70%;
-    margin: 20px 40px;
+    width: 60%;
+    margin: 20px 0px;
   }
   .hero-col2 {
     width: 50%;
     overflow: hidden;
   }
   .hero-col1 h1 {
-    font-size: 5.4rem;
-    line-height: 120%;
+    font-size: 5rem;
+    line-height: 110%;
     max-width: 85%;
   }
   .shape {
-    font-size: 6rem;
-    font-weight: 400;
+    font-size: 8rem;
+    font-weight: 500;
   }
   .hero-col1 p {
-    max-width: 95%;
-  }
-  .club {
-    display: none;
+    width: 90%;
   }
   .hero-btn-container {
-    gap: 70px;
+    gap: 50px;
   }
-
   .hero-col2-image-container {
     margin-top: 48px;
     display: flex;
-    max-height: 420px;
+    max-height: 480px;
     /* border: 1px solid green; */
   }
   .hero-col2-image-container > img {
@@ -396,6 +397,7 @@
     height: 100%;
     margin: 0 auto;
   }
+
   .tutorial-text {
     font-size: 0.8rem;
     width: 80px;
@@ -404,42 +406,38 @@
     font-size: 1.2rem;
   }
   .tutorial-number {
-    top: 56%;
-    right: 42%;
+    top: 70%;
+    right: 50%;
     width: 152px;
     backdrop-filter: blur(10px);
   }
   .workout-video {
-    top: 22%;
-    right: 0%;
+    top: 25%;
+    right: 10%;
     width: 130px;
     height: 70px;
     background: #ffffff1a;
   }
 
-  /* habbit section */
-  .habit-parent {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    /* justify-items: center;
-    align-items: center; */
+  /* habit section */
+  .habit-parent{
+    gap: 10px;
+    width: 80%;
   }
-  .habit-item {
-    display: flex;
-    flex-direction: column;
-    border-radius: 5px;
-    width: 60%;
-    margin: 0 auto;
-    margin-bottom: 20px;
+  .habit-section p {
+    width: 70%;
+  }
+  .habit-item p {
+    width: 100%;
   }
 
+  /* run extra section */
   .run-extra {
     width: 90%;
     margin: 0 auto;
   }
   .run-col1 {
     width: 50%;
-    border: 1px solid red;
   }
   .run-col1 button {
     width: 60%;
@@ -447,7 +445,6 @@
   .run-col2 {
     width: 48%;
     height: 380px;
-    border: 1px solid red;
   }
   .run-col2 img {
     width: 250%;
@@ -455,5 +452,33 @@
     right: 140%;
     bottom: 45%;
     border-radius: inherit;
+  }
+
+  /* bmi calc section */
+  .bmi-col1 {
+    padding-left: 20px;
+  }
+  form {
+    display: grid;
+    grid-template-columns: repeat(2, 47%);
+  }
+
+  /* team section */
+  .section-title {
+    margin-top: -60px;
+    margin-bottom: 10px;
+  }
+  .team-container {
+    margin: 0 20px;
+  }
+
+  /* FAQ section */
+  summary{
+    font-size: 1.3rem;
+  }
+
+  /* footer section */
+  .footer-section {
+    padding: 20px 20px;
   }
 }
