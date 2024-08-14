@@ -1,5 +1,5 @@
 /* responsive for max-width 350*553 or small device */
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 375px) {
   .hero-btn-container {
     gap: 20px;
   }
@@ -23,6 +23,10 @@
 /* for mobile or small device */
 
 @media screen and (max-width: 576px) {
+  .head-section {
+    margin-top: 0px;
+    padding-top: 20px;
+  }
   .nav-container {
     display: flex;
     align-items: center;
@@ -104,7 +108,7 @@
     width: 80px;
   }
   .tutorial-text h4 {
-    font-size: 1.2rem;
+    font-size: 1.8rem;
   }
   .tutorial-number {
     top: 56%;
@@ -115,7 +119,7 @@
   .workout-video {
     top: 22%;
     right: 0%;
-    width: 130px;
+    width: 145px;
     height: 70px;
     background: #ffffff1a;
   }
@@ -348,8 +352,8 @@
 /*  */
 
 /* just for checking tablet and big device (such as laptop- 1024px) responsvieness */
-@media screen and (min-width: 576px) and (max-width: 1024px) {
-  .nav-container{
+@media screen and (min-width: 576px) {
+  .nav-container {
     padding: 0 20px;
   }
   .nav-item li {
@@ -388,14 +392,13 @@
   .hero-col2-image-container {
     margin-top: 48px;
     display: flex;
-    max-height: 480px;
+    max-height: 700px;
     /* border: 1px solid green; */
   }
   .hero-col2-image-container > img {
-    /* border: 1px solid violet; */
-    width: 80%;
-    height: 100%;
-    margin: 0 auto;
+    width: 65%;
+    height: auto;
+    margin: -20px auto;
   }
 
   .tutorial-text {
@@ -403,7 +406,7 @@
     width: 80px;
   }
   .tutorial-text h4 {
-    font-size: 1.2rem;
+    font-size: 1.8rem;
   }
   .tutorial-number {
     top: 70%;
@@ -414,13 +417,13 @@
   .workout-video {
     top: 25%;
     right: 10%;
-    width: 130px;
+    width: 150px;
     height: 70px;
     background: #ffffff1a;
   }
 
   /* habit section */
-  .habit-parent{
+  .habit-parent {
     gap: 10px;
     width: 80%;
   }
@@ -468,12 +471,15 @@
     margin-top: -60px;
     margin-bottom: 10px;
   }
+  .section-details {
+    width: 70%;
+  }
   .team-container {
     margin: 0 20px;
   }
 
   /* FAQ section */
-  summary{
+  summary {
     font-size: 1.3rem;
   }
 
